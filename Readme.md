@@ -1,4 +1,4 @@
-Readme
+** Batman Quiz **
 
 This is a quiz created in JavaScript in the First Lecture of neog camp.
 
