@@ -2,7 +2,7 @@
 
 This is a quiz created in JavaScript in the First Lecture of neog camp.
 
-Link to the Quiz - 
+Link to the Quiz - https://replit.com/@ShreyasDevarkar/Lecture1Game?embed=1&output=1
 
 This quiz basically has 4 Questions, if one asnwers correctly scrore counter increments, if answered incorrectly the score counter decrements.
 
