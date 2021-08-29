@@ -2,9 +2,13 @@
 //https://replit.com/@ShreyasDevarkar/Lecture1Game?embed=1&output=1
 
 var readlineSync = require("readline-sync")
+const chalk = require("chalk"); //chalk defined here
+
 
 var name = readlineSync.question("What is your name? ")
-console.log("Welcome to Batman Quiz " +name);
+//console.log("Welcome to Batman Quiz " +name);
+//Chlak added
+console.log(chalk.green("Welcome to Batman Quiz: "), name);
 console.log("-------------------------");
 
 var score = 0;
@@ -63,4 +67,4 @@ for(var i=0;i<questions.length;i++)
   playgame(currentquestion.question, currentquestion.answer);
 }
 
-console.log("Thanyou for playing ! ")
+console.log(chalk.blue("Thanyou for playing ! "));
